@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 import siteData from '../data/siteData.json';
 import { FiPhone, FiMail, FiMapPin, FiArrowUp, FiFacebook, FiInstagram, FiYoutube } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
-import { s } from 'framer-motion/client';
 
 function ScrollToTop() {
   const [show, setShow] = useState(false);
