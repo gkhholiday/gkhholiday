@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import siteData from '../data/siteData.json';
 import { FiPhone, FiMail, FiMapPin, FiArrowUp, FiFacebook, FiInstagram, FiYoutube } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
+import { s } from 'framer-motion/client';
 
 function ScrollToTop() {
   const [show, setShow] = useState(false);
@@ -47,6 +48,7 @@ export function Footer() {
   const { site, nav, services } = siteData;
   const footer = site.footer || {};
   const phones = [site.primaryPhone, ...site.secondaryPhones];
+  const emails = [site.email, ...site.secondaryEmails];
   
   // Extract pin from address
   const addressMatch = site.address.match(/(.+?)\s+(\d{6})$/);
@@ -141,12 +143,20 @@ export function Footer() {
                     <a href={`tel:${phone}`}>{phone}</a>
                   </li>
                 ))}
-                <li style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                {emails.map(phone => (
+                  <li key={phone} style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                    <span className="footer-icon">
+                      <FiMail/> 
+                    </span>
+                    <a href={`tel:${phone}`}>{phone}</a>
+                  </li>
+                ))}
+                {/* <li style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                   <span className="footer-icon">
                     <FiMail/>
                   </span>
                   <a href={`mailto:${site.email}`}>{site.email}</a>
-                </li>
+                </li> */}
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: 8 }}>
                   <span className="footer-icon">
                     <FiMapPin/>
