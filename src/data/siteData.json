@@ -1,0 +1,338 @@
+{
+  "site": {
+    "name": "GKH",
+    "tagline": "Go to Kerala Holidays",
+    "description": "Affordable, reliable cab services and curated tour packages .",
+    "logoText": "GKH",
+    "logoImage": "/images/gkh.png",
+    "primaryPhone": "+918136811346",
+    "secondaryPhones": ["+918136811347", "+918136811348", "+918136811349"],
+    "whatsapp": "+918136811346",
+    "email": "gotokeralaholidays@gmail.com",
+    "address": "III/495 Alukka Building, Mekkadu P O, Nedumbasheri, Athani, Kochi, Kerala 683589",
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "youtube": "#"
+    },
+    "theme": {
+      "bg": "#ffffff",
+      "card": "#ffffff",
+      "muted": "#6b7280",
+      "text": "#111111",
+      "brand": "#16a34a",
+      "brand2": "#34d399",
+      "accentA": "rgba(16,185,129,0.10)",
+      "accentB": "rgba(74,222,128,0.08)",
+      "footerBg": "transparent",
+      "footerBottomBg": "#16a34a",
+      "footerText": "#111111",
+      "footerBottomText": "#ffffff"
+    },
+    "footer": {
+      "companyDescription": "Reliable cab services with transparent pricing and well-maintained vehicles. Book now for a hassle-free journey.",
+      "copyright": "©2024. Kerala Holiday Cabs All Rights Reserved.",
+      "poweredBy": "Powered by Lsoftio.com",
+      "poweredByLink": "https://Lsoftio.com"
+    }
+  },
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "About Us", "path": "/about" },
+    { "label": "Our Cabs", "path": "/cabs" },
+    { "label": "Tour Packages", "path": "/packages" },
+    { "label": "Contact Us", "path": "/contact" }
+  ],
+  "sections": {
+    "cabs": {
+      "title": "Featured Cabs",
+      "description": "Explore our premium fleet of well-maintained vehicles perfect for your travel needs across Kerala.",
+      "viewAllLink": "/cabs"
+    },
+    "packages": {
+      "title": "Tour Packages",
+      "description": "Discover curated tour packages combining scenic routes, comfortable stays, and expert local guidance.",
+      "viewAllLink": "/packages"
+    },
+    "welcome": {
+      "title": "Welcome to GKH - Trusted Taxi Service in Kochi",
+      "subtitle": "(Affordable and Reliable Cab Service in Kerala)",
+      "description": "We provide dependable and comfortable taxi service . Our top-class, affordable cab services are designed to meet all your travel needs in Kerala. Our well-maintained, clean vehicles are available 24/7, ensuring fast and safe transportation. Whether you need a quick airport transfer or a multi-day trip, our cabs come equipped with air conditioning, music/radio options, and more for a fantastic ride experience. Choose Kerala Holiday Cabs to make your travels in Kochi as enjoyable as possible. With affordable rates, transparent pricing, and dedicated support team, we are confident that we can meet your taxi service needs with excellence.",
+      "heroImage": "/images/hero.jpg"
+    }
+  },
+  "about": {
+    "heroTitle": "Reliable Taxi & Tour Services across Kerala",
+    "heroText": "Since day one, our mission has been simple: safe, punctual, and comfortable travel at honest prices. We combine a modern fleet with experienced, courteous drivers and transparent communication.",
+    "heroImage": "/images/hero.jpg",
+    "highlights": [
+      "24/7 customer support",
+      "Clean, sanitized vehicles",
+      "Professional, local drivers",
+      "Transparent pricing"
+    ],
+    "stats": [
+      { "label": "Happy Trips", "value": "25k+" },
+      { "label": "Cities Covered", "value": "40+" },
+      { "label": "Avg. Rating", "value": "4.8/5" }
+    ],
+    "whyChoose": [
+      {
+        "title": "Comfort & Safety",
+        "text": "Regularly maintained vehicles, AC, and safety-first protocols for every journey."
+      },
+      {
+        "title": "Local Expertise",
+        "text": "Drivers who know Kerala’s roads, viewpoints, food spots, and the best timings."
+      },
+      {
+        "title": "Flexible Planning",
+        "text": "Custom routes, on-the-fly changes, and curated experiences to match your pace."
+      }
+    ]
+  },
+  "contact": {
+    "hours": "Mon–Sun: 6:00 AM – 11:00 PM",
+    "mapUrl": "https://www.google.com/maps?q=Kochi+Airport&output=embed",
+    "note": "For urgent bookings, please call or WhatsApp for the fastest response."
+  },
+  "featuredCabs": [
+        {
+      "id": "sedan",
+      "name": "Sedan (Etios, Dzire)",
+      "image":  "/images/sedan(Dezier).jpg",
+      "startingPrice": 1800,
+      "startingKm":100,
+      "perKm": 16,
+      "passengers": 3,
+      "features": ["AC", "Clean & Sanitized", "Music/Radio"],
+      "description": "Comfortable sedan ideal for city rides and airport transfers.",
+      "showInHome": true,
+      "cabTerms": [
+        "Extra Charges: Parking, tolls, and interstate permits are additional.",
+        "Extra Km Rate: Rs. 22/- per km after initial 100 KM.",
+        "Seasonal Pricing: Rates not valid during holidays like Pooja, Diwali, or Christmas.",
+        "Price Changes: Subject to fuel rates and availability.",
+        "Distance Basis: Km calculated from Cochin Airport to Cochin Airport for round trips."
+      ]
+    },
+    {
+      "id": "ertiga",
+      "name": "Maruti Ertiga",
+      "image": "/images/ertiga.jpg",
+      "startingPrice": 2200,
+      "startingKm": 100,
+      "perKm": 18,
+      "passengers": 5,
+      "features": ["AC", "Spacious", "Music/Radio"],
+      "description": "A reliable MPV perfect for small families and scenic drives.",
+      "showInHome": true,
+      "cabTerms": [
+        "Extra Charges: Parking, tolls, and interstate permits are additional.",
+        "Extra Km Rate: Rs. 18/- per km after initial 100 KM.",
+        "Seasonal Pricing: Rates not valid during holidays like Pooja, Diwali, or Christmas.",
+        "Price Changes: Subject to fuel rates and availability.",
+        "Distance Basis: Km calculated from Cochin Airport to Cochin Airport for round trips."
+      ]
+    },
+        {
+        "id": "crysta",
+        "name": "Innova Crysta",
+        "image": "/images/crysta.png",
+        "startingPrice": 3000,
+        "startingKm": 100,
+        "perKm": 22,
+        "passengers": 6,
+        "features": ["AC", "Luxury", "Captain Seats"],
+        "description": "Elevated comfort and refinement for family and business travel.",
+        "showInHome": true,
+        "cabTerms": [
+          "Extra Charges: Parking, tolls, and interstate permits are additional.",
+          "Extra Km Rate: Rs. 22/- per km after initial 100 KM.",
+          "Seasonal Pricing: Rates not valid during holidays like Pooja, Diwali, or Christmas.",
+          "Price Changes: Subject to fuel rates and availability.",
+          "Distance Basis: Km calculated from Cochin Airport to Cochin Airport for round trips."
+        ]
+      },
+    {
+      "id": "innova",
+      "name": "Toyota Innova",
+      "image":  "/images/innovaold.jpeg",
+      "startingPrice": 2500,
+      "startingKm": 100,
+      "perKm": 20,
+      "passengers": 6,
+      "features": ["AC", "Comfort Ride", "Ample Luggage"],
+      "description": "Premium comfort and space for longer journeys across Kerala.",
+      "showInHome": true,
+      "cabTerms": [
+        "Extra Charges: Parking, tolls, and interstate permits are additional.",
+        "Extra Km Rate: Rs. 20/- per km after initial 100 KM.",
+        "Seasonal Pricing: Rates not valid during holidays like Pooja, Diwali, or Christmas.",
+        "Price Changes: Subject to fuel rates and availability.",
+        "Distance Basis: Km calculated from Cochin Airport to Cochin Airport for round trips."
+      ]
+    },
+     {
+      "id": "tempo9",
+      "name": "Tempo Traveller (12-Seater)",
+      "image":  "/images/temp9.jpeg",
+      "startingPrice": 3500,
+      "startingKm": 100,
+      "perKm": 23,
+      "passengers": 12,
+      "features": ["AC", "Group Travel", "Comfortable Seating"],
+      "description": "Ideal for group outings and multi-day tours.",
+      "showInHome": true,
+      "cabTerms": [
+        "Extra Charges: Parking, tolls, and interstate permits are additional.",
+        "Extra Km Rate: Rs. 23/- per km after initial 100 KM.",
+        "Seasonal Pricing: Rates not valid during holidays like Pooja, Diwali, or Christmas.",
+        "Price Changes: Subject to fuel rates and availability.",
+        "Distance Basis: Km calculated from Cochin Airport to Cochin Airport for round trips."
+      ]
+    },   
+    {
+      "id": "urbania",
+      "name": "Urbania (17-Seater)",
+      "image":  "/images/urbania.jpg",
+      "startingPrice": 6500,
+      "startingKm": 100,
+      "perKm": 30,
+      "passengers": 17,
+      "features": ["AC", "Group Travel", "Comfortable Seating"],
+      "description": "Ideal for group outings and multi-day tours.",
+      "showInHome": true,
+      "cabTerms": [
+        "Extra Charges: Parking, tolls, and interstate permits are additional.",
+        "Extra Km Rate: Rs. 30/- per km after initial 100 KM.",
+        "Seasonal Pricing: Rates not valid during holidays like Pooja, Diwali, or Christmas.",
+        "Price Changes: Subject to fuel rates and availability.",
+        "Distance Basis: Km calculated from Cochin Airport to Cochin Airport for round trips."
+      ]
+    },
+
+    {
+      "id": "tempo15",
+      "name": "Tempo Traveller (17-Seater)",
+      "image": "/images/15-seater-tempo-traveler-rental.png",
+      "startingPrice": 4000,
+      "startingKm": 100,
+      "perKm": 23,
+      "passengers": 17,
+      "features": ["AC", "Large Groups", "Luggage Space"],
+      "description": "Best suited for large groups and comfortable long rides.",
+      "showInHome": true,
+      "cabTerms": [
+        "Extra Charges: Parking, tolls, and interstate permits are additional.",
+        "Extra Km Rate: Rs. 23/- per km after initial 100 KM.",
+        "Seasonal Pricing: Rates not valid during holidays like Pooja, Diwali, or Christmas.",
+        "Price Changes: Subject to fuel rates and availability.",
+        "Distance Basis: Km calculated from Cochin Airport to Cochin Airport for round trips."
+      ]
+    }
+  ],
+  "packages": [
+    {
+        "id": "cream-of-kerala",
+        "title": "Cream of Kerala",
+        "duration": "6 Nights / 7 Days",
+        "route": ["Cochin", "Munnar", "Kovalam", "Thiruvananthapuram"],
+        "image": "/images/tourpackage/creamofkerala.jpeg",
+        "highlights": ["Hill stations + beaches"],
+        "description": "Explore Kerala's diverse landscapes ending with the southern tip of India.",
+        "showInHome": true,
+        "serviceTerms": [
+          "Package includes cab rental with driver, fuel, and toll charges.",
+          "Hotel accommodation not included in base price.",
+          "Driver allowance and overnight charges apply for multi-day tours.",
+          "Seasonal surcharges apply during peak festivals (Onam, Pooja, Diwali, Christmas).",
+          "Cancellation: 50% refund if cancelled 48 hours before, no refund within 24 hours."
+        ]
+      },
+    {
+      "id": "sabarimala",
+      "title": "Sabarimala Pilgrim Tour",
+      "duration": "3 Nights / 4 Days",
+      "route": ["Cochin", "Pamba", "Sabarimala"],
+      "image": "/images/tourpackage/shabarimala.png",
+      "highlights": ["Dedicated driver-guide", "Priority temple visits", "Comfort stays"],
+      "description": "A spiritually fulfilling journey with reliable transfers and assistance.",
+      "showInHome": true,
+      "serviceTerms": [
+        "Package includes cab rental with driver, fuel, and toll charges.",
+        "Hotel accommodation not included in base price.",
+        "Driver allowance and overnight charges apply for multi-day tours.",
+        "Seasonal surcharges apply during peak festivals (Onam, Pooja, Diwali, Christmas).",
+        "Cancellation: 50% refund if cancelled 48 hours before, no refund within 24 hours."
+      ]
+    },
+    {
+      "id": "kerala-kanyakumari",
+      "title": "Kerala with Kanyakumari",
+      "duration": "6 Nights / 7 Days",
+      "route": ["Cochin", "Munnar", "Thekkady", "Alappuzha", "Kovalam", "Kanyakumari"],
+      "image": "/images/tourpackage/kanyakumari.jpg",
+      "highlights": ["Hill stations + beaches", "Houseboat backwaters", "Wildlife safari"],
+      "description": "Explore Kerala's diverse landscapes ending with the southern tip of India.",
+      "showInHome": true,
+      "serviceTerms": [
+        "Package includes cab rental with driver, fuel, and toll charges.",
+        "Hotel accommodation not included in base price.",
+        "Driver allowance and overnight charges apply for multi-day tours.",
+        "Seasonal surcharges apply during peak festivals (Onam, Pooja, Diwali, Christmas).",
+        "Cancellation: 50% refund if cancelled 48 hours before, no refund within 24 hours."
+      ]
+    },
+    {
+      "id": "backwaters-hills",
+      "title": "Amazing Kerala: Backwaters, Safari & Hills",
+      "duration": "6 Nights / 7 Days",
+      "route": ["Cochin", "Munnar", "Thekkady", "Alappuzha", "Varkala", "Kovalam"],
+      "image": "/images/tourpackage/backwater.jpg",
+      "highlights": ["Tea gardens", "Periyar wildlife", "Backwater cruise"],
+      "description": "The best of Kerala's nature with smooth transfers and curated stays.",
+      "showInHome": false,
+      "serviceTerms": [
+        "Package includes cab rental with driver, fuel, and toll charges.",
+        "Hotel accommodation not included in base price.",
+        "Driver allowance and overnight charges apply for multi-day tours.",
+        "Seasonal surcharges apply during peak festivals (Onam, Pooja, Diwali, Christmas).",
+        "Cancellation: 50% refund if cancelled 48 hours before, no refund within 24 hours."
+      ]
+    },
+    {
+      "id": "honeymoon",
+      "title": "Cochin - Munnar Honeymoon",
+      "duration": "3 Nights / 4 Days",
+      "route": ["Cochin", "Munnar", "Thekkady", "Cochin"],
+      "image": "/images/tourpackage/cochin.jpg",
+      "highlights": ["Romantic viewpoints", "Private cab", "Handpicked resorts"],
+      "description": "A cozy escape to the hills with memorable experiences.",
+      "showInHome": true,
+      "serviceTerms": [
+        "Package includes cab rental with driver, fuel, and toll charges.",
+        "Hotel accommodation not included in base price.",
+        "Driver allowance and overnight charges apply for multi-day tours.",
+        "Seasonal surcharges apply during peak festivals (Onam, Pooja, Diwali, Christmas).",
+        "Cancellation: 50% refund if cancelled 48 hours before, no refund within 24 hours."
+      ]
+    }
+  ],
+  "services": [
+    "Hill station Round trip",
+    "Airport Pickup & Drop",
+    "City Tour",
+    "Interstate Tour",
+    "Tour Packages"
+  ],
+  "cabTerms": [
+    "Extra Charges: Parking, tolls, and interstate permits are additional.",
+    "Extra Km Rate: Rs. 100/- per km for all A/C cabs after initial KM.",
+    "Seasonal Pricing: Rates not valid during holidays like Pooja, Diwali, or Christmas.",
+    "Price Changes: Subject to fuel rates and availability.",
+    "Distance Basis: Km calculated from Cochin Airport to Cochin Airport for round trips."
+  ]
+}
+
+
