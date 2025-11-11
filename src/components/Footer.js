@@ -151,12 +151,6 @@ export function Footer() {
                     <a href={`tel:${phone}`}>{phone}</a>
                   </li>
                 ))}
-                {/* <li style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                  <span className="footer-icon">
-                    <FiMail/>
-                  </span>
-                  <a href={`mailto:${site.email}`}>{site.email}</a>
-                </li> */}
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: 8 }}>
                   <span className="footer-icon">
                     <FiMapPin/>
