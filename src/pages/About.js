@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import siteData from '../data/siteData.json';
 import { motion } from 'framer-motion';
 import { Gallery } from './Gallery';
+import { Reviews } from '../components/Reviews';
 
 function Carousel({ items }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -203,6 +204,9 @@ export function About() {
           </motion.div>
         </div>
       </section>
+
+      {/* Reviews Section */}
+      <Reviews />
 
       {/* Services Section */}
       <section className="services-section">

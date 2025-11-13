@@ -32,8 +32,11 @@ img { display: block; max-width: 100%; }
 
 .container {
   width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 16px;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .grid {
@@ -1397,6 +1400,8 @@ img { display: block; max-width: 100%; }
 .map-address-text {
   flex: 1;
 }
+
+/* Reviews Section - Updated styles moved to component */
 
 @media (max-width: 768px) {
   .map-section {

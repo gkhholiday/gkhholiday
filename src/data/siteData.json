@@ -84,7 +84,7 @@
       },
       {
         "title": "Local Expertise",
-        "text": "Drivers who know Kerala’s roads, viewpoints, food spots, and the best timings."
+        "text": "Drivers who know Kerala's roads, viewpoints, food spots, and the best timings."
       },
       {
         "title": "Flexible Planning",
@@ -177,7 +177,7 @@
      {
       "id": "tempo9",
       "name": "Tempo Traveller (12-Seater)",
-      "image":  "/images/temp9.jpeg",
+      "image":  "/images/tempo15.png",
       "startingPrice": 3500,
       "startingKm": 100,
       "perKm": 23,
@@ -216,7 +216,7 @@
     {
       "id": "tempo15",
       "name": "Tempo Traveller (17-Seater)",
-      "image": "/images/15-seater-tempo-traveler-rental.png",
+      "image": "/images/tempo.png",
       "startingPrice": 4000,
       "startingKm": 100,
       "perKm": 23,

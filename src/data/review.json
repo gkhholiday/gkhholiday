@@ -1,0 +1,64 @@
+{
+  "reviewLink": "https://maps.app.goo.gl/jNCXLNk2BFpwFuWY9",
+  "writeReviewLink": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x3b08051db93f677f:0x42dacafd6ca82b10!12e1",
+  "totalReviews": 204,
+  "averageRating": 5.0,
+  "businessName": "GO TO KERALA HOLIDAYS",
+  "businessImage": "/images/gkh.png",
+  "reviews": [
+    {
+      "id": 1,
+      "authorName": "Snehal Bobhate",
+      "profileImage": "https://lh3.googleusercontent.com/a-/ALV-UjUWtksNWI2O26Wl3yX25S0PH767eqoSAsILTowHhMatFi7CN1RY=w54-h54-p-rp-mo-ba2-br100",
+      "rating": 5,
+      "date": "2025-10-04",
+      "reviewText": "We had a fantastic experience on our Kerala trip this week.. thanks to our Sharafu Ikka , who was driving us to best places in Kerala and became like a family member to us. He was extremely helpful , kind, professional, and always punctual. Throughout the journey, he not only ensured our comfort but also suggested some amazing places to visit that weren’t on our original itinerary — hidden gems that made our trip even more special and adventurous. He is a best photographer too.. 😉Sharafu Ikka also recommended some excellent local restaurants and even my kid was enjoying the journey with Sharafu Ikka.We felt safe, well-guided, and truly cared for throughout the journey. Highly recommended for Sharafu Ikka .. if you're planning a trip to Kerala with a family.",
+      "imageUrl": "/gallery/IMG-20251110-WA0023.jpg"
+    },
+    {
+      "id": 2,
+      "authorName": "Abdul Khaliq",
+      "profileImage": "https://lh3.googleusercontent.com/a-/ALV-UjUvcGG-nZlXiFx5jGQymUZEgZK_yuxHs0i1CrF5SwLQdxkiEJus=w54-h54-p-rp-mo-br100",
+      "rating": 5,
+      "date": "2025-10-02",
+      "reviewText": "I had a very pleasant experience with hassle-free booking and exceptional service from Kerala Holiday Cabs. Mr. Ansar was highly responsive and prompt in addressing my queries, ensuring all our requirements were met. Our driver, Mr. Mubarish, was also very friendly and flexible, accommodating our travel needs with ease.I would highly recommend their services to make your holiday planning stress-free. They take care of everything—from your travel pickup and comfortable accommodations to providing a flexible driver or travel guide—so you can return with wonderful memories and a desire to revisit these mesmerizing destinations.",
+      "imageUrl": "/gallery/IMG-20251110-WA0024.jpg"
+    },
+    {
+      "id": 3,
+      "authorName": "pradeba raghun...",
+      "profileImage": "https://ui-avatars.com/api/?name=Pradeba&background=4285F4&color=fff",
+      "rating": 5,
+      "date": "2025-09-29",
+      "reviewText": "The trip was very good and nice and rejimohan was very cooperative and helpful.",
+      "imageUrl": "/gallery/IMG-20251110-WA0025.jpg"
+    },
+    {
+      "id": 4,
+      "authorName": "Rajesh Kumar",
+      "profileImage": "https://ui-avatars.com/api/?name=Rajesh+Kumar&background=random&color=fff",
+      "rating": 5,
+      "date": "2025-09-15",
+      "reviewText": "Excellent service! The driver was very professional and the cab was clean and comfortable. Made our Kerala trip memorable. Highly recommended!",
+      "imageUrl": "/gallery/IMG-20251110-WA0026.jpg"
+    },
+    {
+      "id": 5,
+      "authorName": "Priya Menon",
+      "profileImage": "https://ui-avatars.com/api/?name=Priya+Menon&background=random&color=fff",
+      "rating": 5,
+      "date": "2025-09-10",
+      "reviewText": "Best cab service in Kerala! The driver knew all the best places to visit and was very helpful throughout our journey. Will definitely use again.",
+      "imageUrl": "/gallery/IMG-20251110-WA0027.jpg"
+    },
+    {
+      "id": 6,
+      "authorName": "Arun Nair",
+      "profileImage": "https://ui-avatars.com/api/?name=Arun+Nair&background=random&color=fff",
+      "rating": 5,
+      "date": "2025-09-08",
+      "reviewText": "Amazing experience! The cab was well-maintained and the driver was punctual. Great value for money. Thank you for the wonderful service!",
+      "imageUrl": "/gallery/IMG-20251110-WA0028.jpg"
+    }
+  ]
+}
