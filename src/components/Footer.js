@@ -65,24 +65,26 @@ export function Footer() {
             {/* Company Column */}
             <div className="footer-col">
               <div className="footer-logo">
-                {site.logoImage ? (
-                  <img 
-                    src={site.logoImage} 
-                    alt={site.name} 
-                    style={{ height: 60, width: 'auto', objectFit: 'contain', marginBottom: 12 }}
-                  />
-                ) : (
-                  <>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
-                      <div style={{ fontSize: 28, fontWeight: 900, color: '#111', letterSpacing: 1 }}>{site.logoText}</div>
-                      <svg width="48" height="24" viewBox="0 0 48 24" fill="none" style={{ marginLeft: 4 }}>
-                        <path d="M2 18 Q12 6, 24 12 T46 8" stroke={site.theme?.brand || '#16a34a'} strokeWidth="2.5" fill="none"/>
-                        <circle cx="10" cy="12" r="2.5" fill="#111"/>
-                      </svg>
-                    </div>
-                    <div style={{ fontSize: 11, fontWeight: 700, marginBottom: 12, letterSpacing: 0.5 }}>{site.name.toUpperCase()}</div>
-                  </>
-                )}
+                <Link to="/" style={{ textDecoration: 'none', display: 'block' }}>
+                  {site.logoImage ? (
+                    <img 
+                      src={site.logoImage} 
+                      alt={site.name} 
+                      style={{ height: 60, width: 'auto', objectFit: 'contain', marginBottom: 12 }}
+                    />
+                  ) : (
+                    <>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8 }}>
+                        <div style={{ fontSize: 28, fontWeight: 900, color: '#111', letterSpacing: 1 }}>{site.logoText}</div>
+                        <svg width="48" height="24" viewBox="0 0 48 24" fill="none" style={{ marginLeft: 4 }}>
+                          <path d="M2 18 Q12 6, 24 12 T46 8" stroke={site.theme?.brand || '#16a34a'} strokeWidth="2.5" fill="none"/>
+                          <circle cx="10" cy="12" r="2.5" fill="#111"/>
+                        </svg>
+                      </div>
+                      <div style={{ fontSize: 11, fontWeight: 700, marginBottom: 12, letterSpacing: 0.5 }}>{site.name.toUpperCase()}</div>
+                    </>
+                  )}
+                </Link>
                 <p className="muted" style={{ fontSize: 13, lineHeight: 1.6, marginBottom: 16 }}>
                   {footer.companyDescription || site.description}
                 </p>
@@ -127,6 +129,9 @@ export function Footer() {
                     <Link to={link.path}>{link.label}</Link>
                   </li>
                 ))}
+                <li>
+                  <Link to="/privacy">Privacy Policy</Link>
+                </li>
               </ul>
             </div>
 
@@ -182,7 +187,8 @@ export function Footer() {
           gap: 8
         }}>
           <div style={{ fontSize: 13 }}>{footer.copyright || `©${new Date().getFullYear()}. ${site.name} All Rights Reserved.`}</div>
-          <div style={{ fontSize: 13 }}>
+          <div style={{ fontSize: 13, display: 'flex', gap: '16px', alignItems: 'center' }}>
+            <Link to="/privacy" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy Policy</Link>
             <a href={footer.poweredByLink || '#'} target="_blank" rel="noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
               {footer.poweredBy || 'Powered by auraweblabs.com'}
             </a>

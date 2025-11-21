@@ -158,7 +158,7 @@ export function Home() {
               <FiPackage/>
             </div>
             <h2 className="section-title-modern">
-              <span className="title-main">Tour</span>
+              <span className="title-main">Kerala Tour</span>
               <span className="title-accent">Packages</span>
             </h2>
           </div>

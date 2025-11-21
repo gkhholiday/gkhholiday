@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, NavLink, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, NavLink, Link, useLocation } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Cabs } from './pages/Cabs';
@@ -8,6 +8,7 @@ import { Contact } from './pages/Contact';
 import { Booking } from './pages/Booking';
 import { CabDetail } from './pages/CabDetail';
 import { PackageDetail } from './pages/PackageDetail';
+import { Privacy } from './pages/Privacy';
 import { Footer } from './components/Footer';
 import siteData from './data/siteData.json';
 import { useEffect } from 'react';
@@ -27,7 +28,7 @@ function Header() {
   return (
     <div className="header">
       <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingTop: 12, paddingBottom: 12 }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+        <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none' }}>
           {siteData.site.logoImage ? (
             <img 
               src={siteData.site.logoImage} 
@@ -37,11 +38,11 @@ function Header() {
           ) : (
             <div className="pill" style={{ fontWeight: 700 }}>{siteData.site.logoText}</div>
           )}
-          <div>
-            <div style={{ fontSize: 18, fontWeight: 800 }}>{siteData.site.name}</div>
-            <div className="muted" style={{ fontSize: 12 }}>{siteData.site.tagline}</div>
-          </div>
-        </div>
+        </Link>
+        {/* <div>
+          <div style={{ fontSize: 18, fontWeight: 800 }}>{siteData.site.name}</div>
+          <div className="muted" style={{ fontSize: 12 }}>{siteData.site.tagline}</div>
+        </div> */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
           <nav className="top-nav">
             {siteData.nav.map(n => (
@@ -112,6 +113,7 @@ function App() {
           <Route path="/booking" element={<Booking/>} />
           <Route path="/cab-detail" element={<CabDetail/>} />
           <Route path="/package-detail" element={<PackageDetail/>} />
+          <Route path="/privacy" element={<Privacy/>} />
         </Routes>
       </div>
       <Footer/>

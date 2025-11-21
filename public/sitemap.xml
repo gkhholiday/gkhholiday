@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://gotokeralaholidays.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://gotokeralaholidays.com/about</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gotokeralaholidays.com/cabs</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gotokeralaholidays.com/packages</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gotokeralaholidays.com/contact</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gotokeralaholidays.com/booking</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://gotokeralaholidays.com/cab-detail</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://gotokeralaholidays.com/package-detail</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://gotokeralaholidays.com/privacy</loc>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
