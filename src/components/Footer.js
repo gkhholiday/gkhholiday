@@ -112,11 +112,15 @@ export function Footer() {
             <div className="footer-col hide-mobile">
               <h4 className="footer-heading">Our Services</h4>
               <ul className="footer-list">
-                {services.map(service => (
-                  <li key={service}>
-                    <Link to="/cabs">{service}</Link>
-                  </li>
-                ))}
+                {services.map((service, idx) => {
+                  const serviceName = typeof service === 'string' ? service : service.name;
+                  const serviceKey = typeof service === 'string' ? service : service.name || idx;
+                  return (
+                    <li key={serviceKey}>
+                      <Link to="/cabs">{serviceName}</Link>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
 

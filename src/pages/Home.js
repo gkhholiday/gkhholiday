@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
 import siteData from '../data/siteData.json';
-import { FiPhone, FiPackage } from 'react-icons/fi';
+import { FiPhone, FiPackage, FiMapPin, FiNavigation, FiGlobe, FiMap } from 'react-icons/fi';
 import { ProductCard } from '../components/ProductCard';
+import { Reviews } from '../components/Reviews';
 import { motion } from 'framer-motion';
 
 // Car icon SVG
@@ -16,11 +17,25 @@ const CarIcon = () => (
 );
 
 export function Home() {
-  const { featuredCabs, packages, sections } = siteData;
+  const { featuredCabs, packages, sections, services } = siteData;
   
   // Filter only items that should be shown on home page
   const homeCabs = featuredCabs.filter(cab => cab.showInHome);
   const homePackages = packages.filter(pkg => pkg.showInHome);
+  
+  // Service icons mapping
+  const serviceIcons = {
+    "Hill station Round trip": <FiMapPin />,
+    "Airport Pickup & Drop": <FiNavigation />,
+    "City Tour": <FiMap />,
+    "Interstate Tour": <FiGlobe />,
+    "Tour Packages": <FiPackage />
+  };
+  
+  // Get service icon by name
+  const getServiceIcon = (serviceName) => {
+    return serviceIcons[serviceName] || <FiPackage />;
+  };
   
   return (
     <div className="home">
@@ -37,7 +52,7 @@ export function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="hero-title"
+              className="hero-sub"
             >
               {siteData.site.tagline}
             </motion.div>
@@ -45,7 +60,7 @@ export function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className="hero-sub"
+              className="hero-title"
             >
               {siteData.site.description}
             </motion.div>
@@ -179,6 +194,91 @@ export function Home() {
               transition={{ duration: 0.5, delay: idx * 0.1 }}
             >
               <ProductCard item={pkg} type="package"/>
+            </motion.div>
+          ))}
+        </div>
+      </motion.section>
+
+      {/* Reviews Section */}
+      <Reviews />
+
+      {/* Services Section */}
+      <motion.section
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true, margin: "-50px" }}
+        transition={{ duration: 0.6 }}
+        style={{ marginTop: 40 }}
+      >
+        <div className="section-header" style={{ marginBottom: 24 }}>
+          <div className="section-icon">
+            <FiPackage/>
+          </div>
+          <h2 className="section-title-modern">
+            <span className="title-main">Our</span>
+            <span className="title-accent">Services</span>
+          </h2>
+        </div>
+        <div className="muted" style={{ marginBottom: 24, fontSize: 14, lineHeight: 1.6 }}>
+          Explore our comprehensive range of travel services designed to make your journey comfortable and memorable.
+        </div>
+        <div className="grid grid-sm-2 grid-lg-3 grid-xl-4">
+          {services.map((service, idx) => (
+            <motion.div
+              key={service.name}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: idx * 0.1 }}
+            >
+              <div className="card" style={{ 
+                padding: '24px', 
+                textAlign: 'center',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '12px',
+                minHeight: '200px',
+                justifyContent: 'flex-start',
+                transition: 'all 0.3s ease',
+                cursor: 'default'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'translateY(-4px)';
+                e.currentTarget.style.boxShadow = '0 8px 16px rgba(0,0,0,0.1)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '';
+              }}
+              >
+                <div style={{ 
+                  fontSize: '32px', 
+                  color: 'var(--brand)',
+                  marginBottom: '8px'
+                }}>
+                  {getServiceIcon(service.name)}
+                </div>
+                <h3 style={{ 
+                  fontSize: '16px', 
+                  fontWeight: 600, 
+                  color: 'var(--text)',
+                  margin: 0,
+                  marginBottom: '8px',
+                  lineHeight: 1.4
+                }}>
+                  {service.name}
+                </h3>
+                <p style={{
+                  fontSize: '13px',
+                  color: 'var(--muted)',
+                  lineHeight: 1.6,
+                  margin: 0,
+                  textAlign: 'center'
+                }}>
+                  {service.description}
+                </p>
+              </div>
             </motion.div>
           ))}
         </div>

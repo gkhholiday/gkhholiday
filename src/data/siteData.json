@@ -77,20 +77,19 @@
       { "label": "Cities Covered", "value": "40+" },
       { "label": "Avg. Rating", "value": "4.8/5" }
     ],
-    "whyChoose": [
-      {
-        "title": "Comfort & Safety",
-        "text": "Regularly maintained vehicles, AC, and safety-first protocols for every journey."
-      },
-      {
-        "title": "Local Expertise",
-        "text": "Drivers who know Kerala's roads, viewpoints, food spots, and the best timings."
-      },
-      {
-        "title": "Flexible Planning",
-        "text": "Custom routes, on-the-fly changes, and curated experiences to match your pace."
-      }
-    ]
+    "whyChoose": {
+      "title": "Why Choose Go to Kerala Holidays?",
+      "features": [
+        "Experienced & trained drivers",
+        "GPS-enabled vehicles",
+        "Transparent pricing",
+        "24/7 customer support",
+        "Customised tour packages",
+        "Safe and hygienic vehicles",
+        "Trusted by thousands of travellers"
+      ],
+      "eeatText": "We follow EEAT principles—expert service, proven experience, trusted brand image, and professional travel assistance."
+    }
   },
   "contact": {
     "hours": "Mon–Sun: 6:00 AM – 11:00 PM",
@@ -321,11 +320,26 @@
     }
   ],
   "services": [
-    "Hill station Round trip",
-    "Airport Pickup & Drop",
-    "City Tour",
-    "Interstate Tour",
-    "Tour Packages"
+    {
+      "name": "Hill station Round trip",
+      "description": "Explore scenic hill stations with comfortable round-trip cab services. Perfect for weekend getaways to Munnar, Wayanad, and more."
+    },
+    {
+      "name": "Airport Pickup & Drop",
+      "description": "Reliable 24/7 airport transfer services. Punctual, safe, and comfortable rides to and from Cochin Airport."
+    },
+    {
+      "name": "City Tour",
+      "description": "Discover Kerala's cities with our guided city tours. Visit famous landmarks, markets, and cultural sites at your own pace."
+    },
+    {
+      "name": "Interstate Tour",
+      "description": "Travel beyond Kerala borders with our interstate cab services. Well-maintained vehicles for long-distance journeys."
+    },
+    {
+      "name": "Tour Packages",
+      "description": "Curated multi-day tour packages covering Kerala's best destinations. Includes accommodation assistance and expert local guidance."
+    }
   ],
   "cabTerms": [
     "Extra Charges: Parking, tolls, and interstate permits are additional.",
