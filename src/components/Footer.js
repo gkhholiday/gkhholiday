@@ -197,7 +197,7 @@ export function Footer() {
           <div style={{ fontSize: 13, display: 'flex', gap: '16px', alignItems: 'center' }}>
             <Link to="/privacy" style={{ color: 'inherit', textDecoration: 'none' }}>Privacy Policy</Link>
             <a href={footer.poweredByLink || '#'} target="_blank" rel="noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>
-              {footer.poweredBy || 'Powered by auraweblabs.com'}
+              {footer.poweredBy || 'Powered by Lsofito.com'}
             </a>
           </div>
         </div>
