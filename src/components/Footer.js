@@ -168,7 +168,7 @@ export function Footer() {
                   <div>
                     <div style={{ fontWeight: 600, marginBottom: 4 }}>Office</div>
                     <div style={{ fontSize: 12, lineHeight: 1.5 }}>
-                      Door number : {addressText}{pin ? `, Pin : ${pin}` : ''}
+                      Location : {addressText}{pin ? `, Pin : ${pin}` : ''}
                     </div>
                   </div>
                 </li>
