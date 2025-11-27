@@ -115,13 +115,14 @@ export function Contact() {
                 allowFullScreen
               />
             </div>
+            <a style={{textDecoration: 'none', color: 'inherit'}} href={contact.mapiframe} target="_blank" rel="noreferrer">
             <div className="map-address">
               <FiMapPin/>
               <div className="map-address-text">
                 <div style={{ fontWeight: 600, marginBottom: 4 }}>Office Address</div>
                 <div className="muted">{siteData.site.address}</div>
               </div>
-            </div>
+            </div> </a>
           </motion.div>
         </div>
       </section>

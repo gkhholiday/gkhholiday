@@ -53,7 +53,7 @@ export function Footer() {
   const addressMatch = site.address.match(/(.+?)\s+(\d{6})$/);
   const addressText = addressMatch ? addressMatch[1] : site.address;
   const pin = addressMatch ? addressMatch[2] : null;
-
+  const { contact } = siteData;
   return (
     <>
       <footer className="main-footer" style={{ 
@@ -159,6 +159,8 @@ export function Footer() {
                     <a href={`tel:${phone}`}>{phone}</a>
                   </li>
                 ))}
+            <a style={{textDecoration: 'none', color: 'inherit'}} href={contact.mapiframe} target="_blank" rel="noreferrer">
+
                 <li style={{ display: 'flex', alignItems: 'flex-start', gap: 8 }}>
                   <span className="footer-icon">
                     <FiMapPin/>
@@ -170,6 +172,7 @@ export function Footer() {
                     </div>
                   </div>
                 </li>
+                </a>
               </ul>
             </div>
           </div>

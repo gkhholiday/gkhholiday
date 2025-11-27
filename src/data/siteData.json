@@ -93,7 +93,8 @@
   },
   "contact": {
     "hours": "Mon–Sun: 6:00 AM – 11:00 PM",
-    "mapUrl": "https://www.google.com/maps?q=Kochi+Airport&output=embed",
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.33487585112!2d76.3551469!3d10.153411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b08051db93f677f%3A0x42dacafd6ca82b10!2sGO%20TO%20KERALA%20HOLIDAYS!5e0!3m2!1sen!2sin!4v1764240060663!5m2!1sen!2sin",
+    "mapiframe": "https://maps.app.goo.gl/RpoQvYAMy6G9knQe7",
     "note": "For urgent bookings, please call or WhatsApp for the fastest response."
   },
   "featuredCabs": [
